@@ -1,0 +1,184 @@
+.container {
+  display: flex;
+  gap: 33px;
+  margin-left: 132px;
+  margin-top: 118px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.green {
+  background-color: #54a757;
+}
+.blue {
+  background-color: #29aae3;
+}
+.yellow {
+  background-color: #ffc65d;
+}
+.white {
+  background-color: #f9f9f9;
+}
+.purple {
+  background-color: #9033f9;
+}
+.red {
+  background-color: #ff5966;
+}
+.black {
+  background-color: #080702;
+}
+
+.container_buttons {
+  display: flex;
+  margin-left: 98px;
+}
+
+.button,
+.state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 47px;
+  border-radius: 26px;
+}
+.state {
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  padding-left: 50px;
+  margin: 100px 25px 0;
+}
+
+.button {
+  font-size: 20px;
+  font-family: Noto Sans, sans-serif;
+  margin-top: 25px; /* Отступ сверху для всех кнопок */
+  margin: 34px;
+  color: #fff;
+  border: none;
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.button:first-of-type {
+  margin-top: 0; /* Чтобы у первой кнопки не было лишнего отступа */
+}
+
+.more {
+  width: 164px;
+}
+
+.registration,
+.tryfree {
+  width: 305px;
+}
+
+.work {
+  width: 238px;
+}
+
+.default .more,
+.click .work,
+.click .tryfree {
+  background-color: #54a757;
+}
+
+.default .work,
+.click .registration {
+  background-color: #9033f9;
+}
+
+.default .registration {
+  background-color: #29aae3;
+}
+.default .tryfree {
+  background-color: #ff5966;
+}
+
+.hover .more {
+  background-color: #4fa152;
+}
+.hover .registration {
+  background-color: #269acd;
+}
+.hover .work {
+  background-color: #842ee7;
+}
+.hover .tryfree {
+  background-color: #eb5560;
+}
+.click .more {
+  background-color: #0062cc;
+}
+
+.headline {
+  margin-left: 132px;
+}
+
+.headline h1,
+.headline h2,
+.headline h3,
+.headline h4,
+.headline p {
+  margin-bottom: 25px;
+}
+
+.headline-1 {
+  font-size: 56px;
+  margin-top: 200px;
+}
+
+.headline-2 {
+  font-size: 42px;
+}
+
+.headline-3 {
+  font-size: 26px;
+}
+
+.headline-4 {
+  font-size: 23px;
+}
+
+.text {
+  font-size: 22px;
+}
+
+.text-2 {
+  font-size: 25px;
+}
+
+.text-3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.menu {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+}
+
+.mobile {
+  font-size: 32px;
+  font-family: Noto Sans, sans-serif;
+  font-weight: bold;
+}
+
+.headline-1,
+.headline-2,
+.headline-3,
+.headline-4,
+.text-3 {
+  font-family: Roboto, sans-serif;
+}
+
+.text,
+.text-2,
+.menu {
+  font-family: Noto Sans, sans-serif;
+}
